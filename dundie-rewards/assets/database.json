@@ -1,0 +1,208 @@
+{
+    "people": {
+        "jim@dundlermifflin.com": {
+            "name": "Jim Halpert",
+            "dept": "Sales",
+            "role": "Salesman"
+        },
+        "schrute@dundlkermifflin.com": {
+            "name": "Dwight Schrute",
+            "dept": "Sales",
+            "role": "Manager"
+        },
+        "glewis@dundlermifflin.com": {
+            "name": "Gabe lewis",
+            "dept": "C-Level",
+            "role": "CEO"
+        }
+    },
+    "balance": {
+        "jim@dundlermifflin.com": 1186,
+        "schrute@dundlkermifflin.com": 786,
+        "glewis@dundlermifflin.com": 100
+    },
+    "movement": {
+        "jim@dundlermifflin.com": [
+            {
+                "date": "2024-07-05T00:46:22.685369",
+                "actor": "system",
+                "value": 500
+            },
+            {
+                "date": "2024-07-05T02:17:51.223442",
+                "actor": null,
+                "value": 10
+            },
+            {
+                "date": "2024-07-05T02:19:00.106891",
+                "actor": null,
+                "value": 332
+            },
+            {
+                "date": "2024-07-05T02:24:02.241464",
+                "actor": null,
+                "value": -42
+            },
+            {
+                "date": "2024-07-05T02:24:12.748260",
+                "actor": null,
+                "value": 332
+            },
+            {
+                "date": "2024-07-05T02:26:05.167310",
+                "actor": null,
+                "value": 332
+            },
+            {
+                "date": "2024-07-05T02:26:31.525988",
+                "actor": null,
+                "value": -42
+            },
+            {
+                "date": "2024-07-05T02:26:34.586729",
+                "actor": null,
+                "value": -42
+            },
+            {
+                "date": "2024-07-05T02:26:47.051194",
+                "actor": null,
+                "value": -42
+            },
+            {
+                "date": "2024-07-05T02:26:47.930494",
+                "actor": null,
+                "value": -42
+            },
+            {
+                "date": "2024-07-05T02:26:49.142912",
+                "actor": null,
+                "value": -42
+            },
+            {
+                "date": "2024-07-05T02:26:49.913744",
+                "actor": null,
+                "value": -42
+            },
+            {
+                "date": "2024-07-05T02:26:51.681902",
+                "actor": null,
+                "value": -42
+            },
+            {
+                "date": "2024-07-05T02:26:52.535938",
+                "actor": null,
+                "value": -42
+            },
+            {
+                "date": "2024-07-05T02:26:53.320977",
+                "actor": null,
+                "value": -42
+            },
+            {
+                "date": "2024-07-11T23:04:10.370241",
+                "actor": null,
+                "value": 100
+            }
+        ],
+        "schrute@dundlkermifflin.com": [
+            {
+                "date": "2024-07-05T00:46:22.686477",
+                "actor": "system",
+                "value": 100
+            },
+            {
+                "date": "2024-07-05T02:17:51.223458",
+                "actor": null,
+                "value": 10
+            },
+            {
+                "date": "2024-07-05T02:19:00.106904",
+                "actor": null,
+                "value": 332
+            },
+            {
+                "date": "2024-07-05T02:24:02.241477",
+                "actor": null,
+                "value": -42
+            },
+            {
+                "date": "2024-07-05T02:24:12.748273",
+                "actor": null,
+                "value": 332
+            },
+            {
+                "date": "2024-07-05T02:26:05.167323",
+                "actor": null,
+                "value": 332
+            },
+            {
+                "date": "2024-07-05T02:26:31.526001",
+                "actor": null,
+                "value": -42
+            },
+            {
+                "date": "2024-07-05T02:26:34.586743",
+                "actor": null,
+                "value": -42
+            },
+            {
+                "date": "2024-07-05T02:26:47.051209",
+                "actor": null,
+                "value": -42
+            },
+            {
+                "date": "2024-07-05T02:26:47.930507",
+                "actor": null,
+                "value": -42
+            },
+            {
+                "date": "2024-07-05T02:26:49.142926",
+                "actor": null,
+                "value": -42
+            },
+            {
+                "date": "2024-07-05T02:26:49.913767",
+                "actor": null,
+                "value": -42
+            },
+            {
+                "date": "2024-07-05T02:26:51.681916",
+                "actor": null,
+                "value": -42
+            },
+            {
+                "date": "2024-07-05T02:26:52.535953",
+                "actor": null,
+                "value": -42
+            },
+            {
+                "date": "2024-07-05T02:26:53.320991",
+                "actor": null,
+                "value": -42
+            },
+            {
+                "date": "2024-07-11T23:04:10.370288",
+                "actor": null,
+                "value": 100
+            }
+        ],
+        "glewis@dundlermifflin.com": [
+            {
+                "date": "2024-07-05T00:46:22.687508",
+                "actor": "system",
+                "value": 100
+            }
+        ]
+    },
+    "users": {
+        "jim@dundlermifflin.com": {
+            "password": "LibSo1qA"
+        },
+        "schrute@dundlkermifflin.com": {
+            "password": "KpZmMiYX"
+        },
+        "glewis@dundlermifflin.com": {
+            "password": "gPGs8j7U"
+        }
+    }
+}

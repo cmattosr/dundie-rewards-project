@@ -1,0 +1,60 @@
+# rodar o python em um container
+
+docker run -it -v C:\projeto_python_base\dundie-rewards:/dundie-rewards -w /dundie-rewards --entrypoint=/bin/bash python04
+
+# conectar no container:
+    > docker exec -it <container_id_or_name> /bin/sh
+
+Para manter os pacotes instalados e gerar uma nova imagem:
+    > docker commit <container_id> your_new_image_name
+        > docker commit 157cf5dd65b5 python04
+
+
+# Para instalar o programa
+
+pip install -e .
+
+pip install -e ".[dev]"
+pip install -r requirements.dev.txt
+pip install -e '.[test]'
+pip install -r requirements.test.txt
+
+
+# Maneiras de executar o programa
+
+> dundie load ./assets/people.csv
+> dundie show
+> dundie add 100 --dept=Sales
+
+
+# É possível usar o Makefile pra realizar tarefas:
+> make install 
+    instala o programa em ambiente de desenvolvimento
+> make clean
+    remove arquivos indesejados
+> make test 
+    executa os testes
+
+
+
+# Para rodar os testes
+
+> pytest -s -v tests integration
+    passar as pastas que devem ser testadas
+
+> pytest -s -m "high"
+    executa apenas os testes marcados como "high"
+
+> pytest -s -m "integration"
+    executa apenas os testes marcados como "integration"
+
+> ls **/*.py | entr pytest
+    Fica executando o teste quando houver alteração em algum arquivo
+
+> pytest -m "unit" -k test_add_person_for_the_first_time
+    Para executar um teste específicp (ex: test_add_person_for_the_first_time)
+
+
+# Para verificar o database de test (ex: test_add_person_for_the_first_time)
+
+> cat /tmp/pytest-of-root/pytest-current/test_add_person_for_the_first_0/database.test.json 
