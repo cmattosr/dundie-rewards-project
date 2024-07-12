@@ -1,0 +1,41 @@
+# Contributing to Dundie Project
+
+Summary of project
+
+## Guidelines
+
+- Backwards compatibility
+- Multiplataform
+- Python 3 only
+
+## Code of conduct
+
+- Be gentle
+
+## How to contribute
+
+### Fork repository
+
+- Click fork button on [github repo] (https://github.com/cmattosr/dundie-rewards-project)
+
+### Clone to local dev environment
+
+```bash
+git clone https://github.com/cmattosr/dundie-rewards-project.git
+
+```
+
+### Prepare virtual env
+
+### Coding style
+
+- This project follows PEP8
+
+### Commit rules
+
+- We follow conventional commit messages ex: `[bugfix] reason #issue`
+- Signed commits are required
+
+### Pull Request Rules
+
+- We required all tests to be passing

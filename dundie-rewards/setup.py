@@ -1,3 +1,5 @@
+"""Setup for dundie project."""
+
 import os
 from setuptools import setup, find_packages
 
